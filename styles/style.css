@@ -193,10 +193,23 @@ footer {
   margin-top: 50px;
   vertical-align: middle;
   color: var(--pink);
+  grid-column: 1 / -1;
 }
 .collection-link {
   color: var(--pink);
   margin-right: 5px;
+}
+.feature-products {
+  margin: 100px auto 0;
+  max-width: 1110px;
+  justify-content: space-between;
+  gap: 50px 96px;
+}
+.secondary-btn {
+  border-radius: 0;
+}
+.feature-content p {
+  margin: 16px 0;
 }
 @media screen and (max-width: 576px) {
   h1 {
