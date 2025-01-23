@@ -23,15 +23,17 @@ body:not(i) {
 }
 h1 {
   font-size: 3.25rem;
-  color: var(--darkTwo);
+  color: #3a3a3a;
 }
 h2 {
   font-size: 2.4rem;
-  color: #0a0826;
+  color: #3a3a3a;
+  font-weight: 600;
 }
 h3 {
   font-size: 1.7rem;
-  color: #18191f;
+  color: #3a3a3a;
+  font-weight: 500;
 }
 h4 {
   font-size: 1.5rem;
@@ -186,6 +188,16 @@ footer {
   font-weight: 700;
   margin-left: 4px;
 }
+.more-collection {
+  text-align: right;
+  margin-top: 50px;
+  vertical-align: middle;
+  color: var(--pink);
+}
+.collection-link {
+  color: var(--pink);
+  margin-right: 5px;
+}
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 1.75rem;
@@ -237,11 +249,17 @@ footer {
     gap: 20px 31px;
   }
   .collection-container {
+    max-width: 400px;
     grid-template-columns: 1fr;
     padding: 6px;
+    margin: 0 auto;
   }
   .collection {
     max-width: 400px;
     margin: 0 auto;
+  }
+  .more-collection {
+    width: 100%;
+    padding: 0 20px;
   }
 }
