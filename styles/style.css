@@ -115,6 +115,35 @@ footer {
 .banner-profile-pic img {
   max-width: 440px;
 }
+.sponsors-container {
+  max-width: 1110px;
+  margin: 65px auto;
+  padding: 50px 30px;
+
+  flex-wrap: wrap;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        to right,
+        rgba(255, 126, 95, 0),
+        rgba(0, 0, 0, 0.499),
+        rgba(255, 126, 95, 0)
+      )
+      border-box;
+}
+/* .gradient-border {
+  padding: 20px 40px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box,linear-gradient(
+        to right,
+        rgba(255, 126, 95, 0),
+        #ff7e5f,
+        rgba(255, 126, 95, 0)
+      )
+      border-box;
+} */
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 1.75rem;
@@ -160,5 +189,9 @@ footer {
   }
   .banner-profile-pic img {
     width: 100%;
+  }
+  .sponsors-container {
+    justify-content: center;
+    gap: 20px 31px;
   }
 }
