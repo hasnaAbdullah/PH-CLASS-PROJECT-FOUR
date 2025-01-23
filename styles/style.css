@@ -204,6 +204,9 @@ main {
   justify-content: space-between;
   gap: 50px 96px;
 }
+.products-profile-pic img {
+  width: 100%;
+}
 .secondary-btn {
   border-radius: 0;
 }
