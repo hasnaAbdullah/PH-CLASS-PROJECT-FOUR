@@ -96,8 +96,7 @@ footer {
 .shopping-cart {
   width: 36px;
 }
-.banner {
-}
+
 .banner-content {
   max-width: 582px;
 }
@@ -118,8 +117,7 @@ footer {
 .sponsors-container {
   max-width: 1110px;
   margin: 65px auto;
-  padding: 50px 30px;
-
+  padding: 40px 30px;
   flex-wrap: wrap;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
@@ -144,6 +142,44 @@ footer {
       )
       border-box;
 } */
+/* main section style start */
+/* collection section start */
+.popular-collection {
+  text-align: center;
+  max-width: 1047px;
+  margin: 0 auto;
+}
+.collection-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.collection {
+  text-align: left;
+  max-width: 329px;
+  padding: 17px 15px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 0 #7878854c;
+}
+.collection h4 {
+  margin: 6px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.collection i {
+  color: var(--orange);
+  margin-right: 2px;
+}
+.collection p {
+  margin-top: 4px;
+  color: #787885;
+}
+.rating {
+  color: #787885;
+  font-weight: 700;
+  margin-left: 4px;
+}
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 1.75rem;
