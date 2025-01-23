@@ -162,10 +162,16 @@ footer {
   border-radius: 16px;
   box-shadow: 0 0 10px 0 #7878854c;
 }
+.collection img {
+  width: 100%;
+}
 .collection h4 {
   margin: 6px 0;
   font-size: 1.5rem;
   font-weight: 400;
+}
+.collection h3 {
+  margin: 12px 0;
 }
 .collection i {
   color: var(--orange);
@@ -229,5 +235,13 @@ footer {
   .sponsors-container {
     justify-content: center;
     gap: 20px 31px;
+  }
+  .collection-container {
+    grid-template-columns: 1fr;
+    padding: 6px;
+  }
+  .collection {
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
